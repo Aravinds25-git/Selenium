@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNg_Suite" verbose="1" >
+  <test name="First_Test" >
+  
+  <parameter name="url" value="https://www.facebook.com" />
+  <parameter name="username" value="aravind" />
+  <parameter name="password" value="shanmugavel" />
+  
+    <classes>
+       <class name="TestNGBasics.ParameterTest"/>
+    </classes>
+  </test>
+  </suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNg_Suite" verbose="1" >
+  <test name="First_Test" >
+    <classes>
+       <class name="TestNGBasics.DependsOn_TestNG"/>
+       <class name="TestNGBasics.ExpectedException"/>
+       <class name="TestNGBasics.TestGooglePage"/>
+       <class name="TestNGBasics.TestNGFeatures"/>
+    </classes>
+  </test>
+</suite>

@@ -28,7 +28,7 @@ public class LoginPageTest extends TestBase{
 		initialization();
 		loginpage=new LoginPage();
 	}
-	
+	 
 	@Test(priority=1)
 	public void CRMtitletest()
 	{
